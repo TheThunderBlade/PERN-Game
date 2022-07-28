@@ -1,0 +1,42 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.layout_grid {
+    display: grid;
+    grid-template-rows: 10% 90%;
+    min-height: 100vh;
+}
+
+.layout_nav {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.layout_header {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid whitesmoke;
+}
+
+.custom_logo {
+    margin: 0;
+    padding: 0;
+}
+
+.layout_navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    overflow: auto;
+    max-height: 90vh;
+}
+
+.layout_children {
+    border-left: 2px solid whitesmoke;
+}

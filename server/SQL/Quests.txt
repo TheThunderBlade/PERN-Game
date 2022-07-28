@@ -1,0 +1,21 @@
+INSERT INTO public."Quests"(
+	"QuestRequirements", "MoneyForDoing", "ReputationForDoing", "createdAt", "updatedAt")
+	VALUES ( '{"Wood":50}', 15, 10, NOW(), NOW());
+INSERT INTO public."Quests"(
+	"QuestRequirements", "MoneyForDoing", "ReputationForDoing", "createdAt", "updatedAt")
+	VALUES ( '{"WoodBeam":50}', 20, 15, NOW(), NOW());
+INSERT INTO public."Quests"(
+	"QuestRequirements", "MoneyForDoing", "ReputationForDoing", "createdAt", "updatedAt")
+	VALUES ( '{"Stone":50}', 15, 10, NOW(), NOW());
+INSERT INTO public."Quests"(
+	"QuestRequirements", "MoneyForDoing", "ReputationForDoing", "createdAt", "updatedAt")
+	VALUES ( '{"Iron":50}', 20, 15, NOW(), NOW());
+INSERT INTO public."Quests"(
+	"QuestRequirements", "MoneyForDoing", "ReputationForDoing", "createdAt", "updatedAt")
+	VALUES ( '{"Gold":50}', 25, 20, NOW(), NOW());
+INSERT INTO public."Quests"(
+	"QuestRequirements", "MoneyForDoing", "ReputationForDoing", "createdAt", "updatedAt")
+	VALUES ( '{"Diamond":50}', 30, 25, NOW(), NOW());
+INSERT INTO public."Quests"(
+	"QuestRequirements", "MoneyForDoing", "ReputationForDoing", "createdAt", "updatedAt")
+	VALUES ( '{"Wood":15, "Iron":15}', 35, 5, NOW(), NOW());
